@@ -11,7 +11,7 @@ namespace CoffeeShopSystem
         static void Main(string[] args)
         {
             BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-            customerManager.Save(new Customer { Id = 1, FirstNAme = "Gizem", LastName = "Egin", DateOfBirth = new DateTime(1993, 8, 9), NationalityId = "46594628138" });
+            customerManager.Save(new Customer { Id = 1, FirstNAme = "Gizem", LastName = "Egin", DateOfBirth = new DateTime(1993, 8, 9), NationalityId = "" });
 
 
         }
